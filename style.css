@@ -9,6 +9,8 @@ body {
   color: white;
 
   height: 100vh;
+
+  
 }
 
 header{
@@ -28,6 +30,7 @@ button {
 
   display: flex;
   align-items:center;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Nunito';
+  font-size: 600;
 
 }
