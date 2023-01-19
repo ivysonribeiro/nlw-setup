@@ -17,9 +17,8 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 48px;
 }
-
-
 
 button {
   padding: 16px 24px;
@@ -30,7 +29,31 @@ button {
 
   display: flex;
   align-items:center;
+  gap: 12px;
+
   font-family: 'Nunito';
-  font-size: 600;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%; 
+}
+
+input{
+  appearance: none;
+  -webkit-appearance: none;
+
+  width: 64px;
+  height: 64px;
+
+  border: 2px solid #27272A;
+  border-radius: 20px;
+
+  background: #18181B;
+
+}
+
+input:checked{
+  background: #9d7de7;
+  border: 2px solid #A78BFA;
+  
 
 }
