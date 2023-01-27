@@ -5,12 +5,9 @@
 }
 
 body {
-  background-color: #09090a;
+  background-color: #17171a;
   color: white;
-
-  height: 100vh;
-
-  
+  height: 100vh; 
 }
 
 header{
@@ -32,11 +29,13 @@ button {
   display: flex;
   align-items:center;
   gap: 12px;
+  position: relative;
 
   font-family: 'Nunito';
   font-weight: 600;
   font-size: 16px;
   line-height: 125%; 
+  cursor: pointer;
 }
 
 form{
@@ -61,10 +60,6 @@ form{
   display: flex;
   align-items: center;
   justify-content: center;
-
-
-
-
 }
 
 .days{
@@ -84,7 +79,6 @@ form{
   font-family: 'Roboto Mono';
   font-size: 20px;
   line-height: 125%;
-
   color: #a1a1aa;
 
 }
@@ -96,7 +90,7 @@ input{
   width: 64px;
   height: 64px;
 
-  border: 2px solid #27272A;
+  border: 2px solid #3f3f45;
   border-radius: 50px;
 
   background: #18181B;
@@ -104,7 +98,7 @@ input{
 }
 
 input:checked{
-  background: #9d7de7;
+  background: #bcddf0;
   border: 2px solid #A78BFA;  
 }
 
