@@ -1,2 +1,2 @@
-# nlw-setup
- aplicativo habits
+# nlw
+Marcador de Hábitos
